@@ -21,17 +21,12 @@ public class SortowanieBabelkowe {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
 		//deklaracje
 		int[] arr = new int[100];
 		int[] occur= new int[10];
 		int max=0,min=99,sum=0;
 		Random randomGen=new Random(System.currentTimeMillis());
-		//funkcja
-		
-					
-				
-			
-		
 		
 		//1. Wygenerowanie tablicy i jej wypisanie
 		for(int i=0;i<100;i++) {
@@ -60,6 +55,7 @@ public class SortowanieBabelkowe {
 			}
 			
 		}
+		
 		//3.Najmniejsza wartosc
 		System.out.println("Minimalna wartosc w tablicy wynosi: "+min);
 		
